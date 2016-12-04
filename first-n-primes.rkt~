@@ -1,5 +1,7 @@
 #lang racket
 
+;; find the first n prime numbers
+
 (define (square x) (* x x))
 
 (define (expmod base exp m)
@@ -21,3 +23,6 @@
         ((fermat-test n) (fast-prime? n (- times 1)))
         (else false)))
 
+(define (find-first-prime n)
+  (define counter 0)
+  (cond ((= n 1) 2)))

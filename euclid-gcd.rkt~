@@ -1,0 +1,6 @@
+#lang racket
+
+(define (Eculid-gcd a b)
+  (if (= b 0)
+      a
+      (Eculid-gcd b (remainder a b))))
