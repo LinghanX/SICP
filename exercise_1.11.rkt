@@ -19,4 +19,5 @@
       (iterative-f (+ a (* 2 b) (* 3 c))
                    a
                    b
+<<<<<<< HEAD
                    (- n 1))))
