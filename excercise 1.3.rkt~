@@ -1,4 +1,0 @@
-#lang racket
-
-(define (sum-square x y z)
-  ())

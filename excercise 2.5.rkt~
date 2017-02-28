@@ -1,7 +1,0 @@
-#lang racket
-
-(define expo
-  (lambda (x y)
-    (cond ((= y 0) 1)
-          (* x (expo x (- y 1))))))
-               
